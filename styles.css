@@ -199,12 +199,4 @@ button {
     font-size: 1rem;
   }
 
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .box-1 .box-2 .box-3 {
-    min-width: 50%;
-  }
 }
