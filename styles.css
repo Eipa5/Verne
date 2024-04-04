@@ -82,6 +82,8 @@ body {
   border: solid gray 1px;
   border-radius: 0.8em;
   margin-bottom: 2em;
+  max-height: 25em;
+  min-width: 50%;
 }
 
 .article {
@@ -103,6 +105,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.box-1 .images .svg {
+  scale: 1;
+}
+
+@media screen and (min-width: 1197px) {
+  .box-1 .images .svg {
+    display: none;
+  }
 }
 
 .box-1 .images ul {
@@ -130,8 +142,8 @@ body {
   font-size: 24px;
 }
 
-.box-2 img {
-  scale: 1;
+.box-2 .image {
+  scale: 1.12;
 }
 
 @media screen and (min-width: 3000px) {
