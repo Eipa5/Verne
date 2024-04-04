@@ -4,8 +4,7 @@ html {
 
 body {
   max-height: 100vh;
-  max-width: 100%;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
   font-size: 16px;
   margin-bottom: 80em;
 }
@@ -136,14 +135,14 @@ body {
 
 .box-2 {
   padding: 0 1em;
-  flex-basis: 45%;
+  flex-basis: 40%;
   display: flex;
   font-family: 'PT Sans', sans-serif;
   font-size: 24px;
 }
 
 .box-2 .image {
-  scale: 1.12;
+  scale: 0.95;
 }
 
 @media screen and (min-width: 3000px) {
@@ -169,7 +168,7 @@ body {
 }
 
 .box-3 {
-  flex-basis: 45%;
+  flex-basis: 40%;
   padding: 0 1em;
   font-family: 'PT Sans', sans-serif;
   font-size: 24px;
@@ -211,21 +210,20 @@ button {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   * {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
+
   .image .phone {
-    scale: 2;
-    display: flex;
-    height: 20rem;
-    margin-bottom: 10rem;
-    margin-top: 0;
+    scale: 1;
+    position: relative;
+    translate: -2em;
   }
 
   .title button {
-    padding: 1rem 4.3rem;
+    padding: 1rem 2.1rem;
   }
 
   .article {
@@ -257,4 +255,15 @@ button {
     scale: 0.9;
   }
 
+}
+
+@media screen and (min-width:275px) {
+  * {
+    font-size: 1rem;
+  }
+
+  .image .phone {
+    scale: 1.1;
+    height: 40em;
+  }
 }
